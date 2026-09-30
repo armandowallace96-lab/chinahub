@@ -81,7 +81,7 @@ drag(fr,fr)
 
 local tt=txt(fr,"ChinaHub",24,UDim2.fromOffset(125,6),UDim2.fromOffset(200,28),W,true)
 new("UIGradient",{Color=ColorSequence.new(GOLD,W)},tt)
-txt(fr,"@"..me.Name.."  ·  v3.0",12,UDim2.fromOffset(125,32),UDim2.fromOffset(250,16),Color3.fromRGB(255,225,200))
+txt(fr,"ChinaHub  ·  v3.0",12,UDim2.fromOffset(125,32),UDim2.fromOffset(250,16),Color3.fromRGB(255,225,200))
 local lk=new("TextButton",{Size=UDim2.fromOffset(34,34),Position=UDim2.fromOffset(438,8),BackgroundColor3=BLK,BackgroundTransparency=.3,Text="🔓",TextSize=16,AutoButtonColor=false},fr)
 round(lk,17)press(lk)
 lk.MouseButton1Click:Connect(function()locked=not locked lk.Text=locked and"🔒"or"🔓"end)
